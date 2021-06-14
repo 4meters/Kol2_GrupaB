@@ -1,0 +1,8 @@
+<div class="card" style="width: 760px; height: 720px">
+  <img [src]="image" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <p class="card-text">{{text}}</p>
+    <a [routerLink]="['/posts/'+id]" class="btn btn-primary">Więcej</a>
+  </div>
+</div>
